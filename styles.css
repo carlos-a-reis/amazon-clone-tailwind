@@ -3,3 +3,11 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+.item-nav-mid {
+  @apply mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1;
+}
+
+.item-nav-inf {
+  @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3
+}
